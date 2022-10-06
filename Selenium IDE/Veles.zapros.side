@@ -1,0 +1,275 @@
+{
+  "id": "e502bbe1-59da-4a4a-a4ed-50a20705371e",
+  "version": "2.0",
+  "name": "Veles",
+  "url": "https://gidromotor.by",
+  "tests": [{
+    "id": "286cfca2-8f9b-4304-8458-bdd599f26dc7",
+    "name": "каталог",
+    "commands": [{
+      "id": "bd962df0-eab2-4ba1-a69e-bf50cd2f8abc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57f7fbbe-c9af-4175-978d-7f1451372059",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43f44e8e-5c48-466a-b5e2-ec814dff1705",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=о компании",
+      "targets": [
+        ["linkText=о компании", "linkText"],
+        ["css=td:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'о компании')]", "xpath:link"],
+        ["xpath=//table[@id='tm']/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.pl?act=ABOUT')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cb04146-16e9-42f3-9b78-c90661cd045d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .t",
+      "targets": [
+        ["css=tr:nth-child(1) > .t", "css:finder"],
+        ["xpath=//table[@id='table-c']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[5]/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d828ef34-894d-4696-b66e-43c4bc755dbc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .t",
+      "targets": [
+        ["css=tr:nth-child(1) > .t", "css:finder"],
+        ["xpath=//table[@id='table-c']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[5]/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'каталог')]", "xpath:innerText"]
+      ],
+      "value": "каталог"
+    }]
+  }, {
+    "id": "f94c60b1-fd6a-4b1a-8fa9-fae6daa6328a",
+    "name": "Отправить запрос",
+    "commands": [{
+      "id": "3540a115-b2db-4dfe-ae54-c978ff8c7056",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3e08fab-c38a-41a1-a864-b658d4f0e014",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d49895f6-bcfc-45ec-887a-064993bae398",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=отправить запрос",
+      "targets": [
+        ["linkText=отправить запрос", "linkText"],
+        ["css=td:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'отправить запрос')]", "xpath:link"],
+        ["xpath=//table[@id='tm']/tbody/tr/td[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'mail.pl?act=REQUESTFORM')]", "xpath:href"],
+        ["xpath=//td[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a192a3b-177b-4169-b69e-8da22dc2dd9e",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(1) .reqform__input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/form/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23064e10-74f6-4f58-bc49-2cddaab60f12",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(1) .reqform__input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/form/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "яяиечркчнто"
+    }, {
+      "id": "616daeee-d7e3-4c9c-9e3b-f23167879959",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=tr:nth-child(2) .reqform__input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "462bbebb-53a7-42d8-a157-619b463cc15e",
+      "comment": "",
+      "command": "click",
+      "target": "name=imail",
+      "targets": [
+        ["name=imail", "name"],
+        ["css=tr:nth-child(3) .reqform__input", "css:finder"],
+        ["xpath=//input[@name='imail']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/form/table/tbody/tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d919def7-10c8-4c2c-b1d6-b4e4491e59d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.closeIcon_b57c",
+      "targets": [
+        ["css=.closeIcon_b57c", "css:finder"],
+        ["xpath=//jdiv[@id='jivo_close_button']/jdiv", "xpath:idRelative"],
+        ["xpath=//jdiv[3]/jdiv/jdiv/jdiv", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2785f23d-0484-4ae4-8eab-535fb4fc6342",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) input",
+      "targets": [
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@value='отправить запрос']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43ce9349-1be8-4272-9059-ffa52e048a9b",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=tr:nth-child(2) .reqform__input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2425bd4-b12f-4af9-9291-447938b39e75",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.validation--valid > .reqform__input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "111111111111"
+    }, {
+      "id": "20ca1659-94c1-417d-99c5-bf2cabd54566",
+      "comment": "",
+      "command": "click",
+      "target": "css=.validation--invalid > .validation-msg",
+      "targets": [
+        ["css=.validation--invalid > .validation-msg", "css:finder"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[3]/td[2]/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ae3d4af-01cb-464e-aacd-9c4b45d061a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=imail",
+      "targets": [
+        ["name=imail", "name"],
+        ["css=.validation--invalid > .reqform__input", "css:finder"],
+        ["xpath=//input[@name='imail']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/form/table/tbody/tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b18efc-69b9-4821-b236-3bdd814da8e8",
+      "comment": "",
+      "command": "type",
+      "target": "name=imail",
+      "targets": [
+        ["name=imail", "name"],
+        ["css=tr:nth-child(3) .reqform__input", "css:finder"],
+        ["xpath=//input[@name='imail']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/form/table/tbody/tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "11111111111111111"
+    }, {
+      "id": "d237887a-e306-4d19-a325-72daa8b58623",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) input",
+      "targets": [
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@value='отправить запрос']", "xpath:attributes"],
+        ["xpath=//div[@id='req']/form/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f701c150-bae2-4753-bccc-f8c6e1d25703",
+      "comment": "",
+      "command": "click",
+      "target": "id=tdproduct",
+      "targets": [
+        ["id=tdproduct", "id"],
+        ["css=#tdproduct", "css:finder"],
+        ["xpath=//div[@id='tdproduct']", "xpath:attributes"],
+        ["xpath=//div[@id='zc']/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90987966-b7f6-42a8-9c61-5350c0e22adf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.title",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bdb4a5f3-b566-439a-bfbb-a91e4ef9effb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["286cfca2-8f9b-4304-8458-bdd599f26dc7"]
+  }],
+  "urls": ["https://gidromotor.by/"],
+  "plugins": []
+}

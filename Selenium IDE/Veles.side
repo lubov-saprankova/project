@@ -1,0 +1,73 @@
+{
+  "id": "e502bbe1-59da-4a4a-a4ed-50a20705371e",
+  "version": "2.0",
+  "name": "Veles",
+  "url": "https://gidromotor.by",
+  "tests": [{
+    "id": "286cfca2-8f9b-4304-8458-bdd599f26dc7",
+    "name": "каталог",
+    "commands": [{
+      "id": "bd962df0-eab2-4ba1-a69e-bf50cd2f8abc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57f7fbbe-c9af-4175-978d-7f1451372059",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43f44e8e-5c48-466a-b5e2-ec814dff1705",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=о компании",
+      "targets": [
+        ["linkText=о компании", "linkText"],
+        ["css=td:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'о компании')]", "xpath:link"],
+        ["xpath=//table[@id='tm']/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.pl?act=ABOUT')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cb04146-16e9-42f3-9b78-c90661cd045d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .t",
+      "targets": [
+        ["css=tr:nth-child(1) > .t", "css:finder"],
+        ["xpath=//table[@id='table-c']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[5]/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d828ef34-894d-4696-b66e-43c4bc755dbc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .t",
+      "targets": [
+        ["css=tr:nth-child(1) > .t", "css:finder"],
+        ["xpath=//table[@id='table-c']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[5]/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'каталог')]", "xpath:innerText"]
+      ],
+      "value": "каталог"
+    }]
+  }],
+  "suites": [{
+    "id": "bdb4a5f3-b566-439a-bfbb-a91e4ef9effb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["286cfca2-8f9b-4304-8458-bdd599f26dc7"]
+  }],
+  "urls": ["https://gidromotor.by/"],
+  "plugins": []
+}
