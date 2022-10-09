@@ -1,0 +1,378 @@
+{
+  "id": "e452eb9a-d523-4307-9922-934fc9263894",
+  "version": "2.0",
+  "name": "Demodz1",
+  "url": "https://passport.yandex.by/auth/list?retpath=https%3A%2F%2Fyandex.by%2F&msid=1665323120862328-16768888555097119176-vla1-4340-vla-l7-balancer-8080-BAL-1242&origin=home_yaru_desktop_new",
+  "tests": [{
+    "id": "0a4c5fe9-9a31-46c6-8942-4bbba5ecd0bd",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "edaf1a44-8614-43dc-b8ed-f1cb7739a5a9",
+    "name": "yandex.ru",
+    "commands": [{
+      "id": "b28b10b7-8167-4977-b312-0b0e01c06685",
+      "comment": "",
+      "command": "open",
+      "target": "https://passport.yandex.by/auth/list?retpath=https%3A%2F%2Fyandex.by%2F&msid=1665323120862328-16768888555097119176-vla1-4340-vla-l7-balancer-8080-BAL-1242&origin=home_yaru_desktop_new",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35f45502-087e-4c80-8ceb-a80e3a8b992a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "791x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3936024-f593-4404-a545-d52b93a01d77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AuthAccountList-itemBlock:nth-child(3) .AuthAccountListItem",
+      "targets": [
+        ["css=.AuthAccountList-itemBlock:nth-child(3) .AuthAccountListItem", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/ul[2]/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/auth/welcome?uid=1476575405&retpath=https%3A%2F%2Fyandex.by%2F&origin=home_yaru_desktop_new')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "818ac895-fb98-4828-a6ae-bf0d5349e8ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Не помню пароль",
+      "targets": [
+        ["linkText=Не помню пароль", "linkText"],
+        ["css=.Link_weight_medium", "css:finder"],
+        ["xpath=//a[contains(text(),'Не помню пароль')]", "xpath:link"],
+        ["xpath=//div[@id='field:link-passwd']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://passport.yandex.by/restoration?origin=home_yaru_desktop_new&retpath=https%3A%2F%2Fyandex.by%2F&login=lyubov-saprankova&process_uuid=bc0527dc-7a6e-461d-9440-f3ec75cea359')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Не помню пароль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42605366-508d-4f2d-ada4-e899d2679476",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64eae63a-4bf4-45df-a7be-41b7d000ed78",
+      "comment": "",
+      "command": "click",
+      "target": "id=passp-field-captcha_answer",
+      "targets": [
+        ["id=passp-field-captcha_answer", "id"],
+        ["name=captcha_answer", "name"],
+        ["css=#passp-field-captcha_answer", "css:finder"],
+        ["xpath=//input[@id='passp-field-captcha_answer']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div/div[2]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f19902f-601d-4a1e-970e-b2132398f6c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button2",
+      "targets": [
+        ["css=.Button2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8d8b37c-9942-4255-bdb9-421876272276",
+      "comment": "",
+      "command": "type",
+      "target": "id=passp-field-captcha_answer",
+      "targets": [
+        ["id=passp-field-captcha_answer", "id"],
+        ["name=captcha_answer", "name"],
+        ["css=#passp-field-captcha_answer", "css:finder"],
+        ["xpath=//input[@id='passp-field-captcha_answer']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div/div[2]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "стойбище привела"
+    }, {
+      "id": "9d443575-4d0b-4425-9038-d8051c7837fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Button2",
+      "targets": [
+        ["css=.Button2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e71c0d80-bcb7-42d1-a52b-ceead4494a4d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Button2",
+      "targets": [
+        ["css=.Button2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4263f12-72e2-47c8-8b69-ac1310c55460",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Button2",
+      "targets": [
+        ["css=.Button2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div[2]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e7c31a3-f674-4cb5-8097-e0ffd2a16103",
+      "comment": "",
+      "command": "type",
+      "target": "id=passp-field-phone",
+      "targets": [
+        ["id=passp-field-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#passp-field-phone", "css:finder"],
+        ["xpath=//input[@id='passp-field-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/form/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "+375291864774"
+    }, {
+      "id": "e48bbf60-99d6-480c-b5ff-0f003a77b4e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button2_view_action",
+      "targets": [
+        ["css=.Button2_view_action", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "747b2a3f-a527-468a-956b-f4ed1c8e253e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Button2_view_action",
+      "targets": [
+        ["css=.Button2_view_action", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19dc5e81-e4f5-473b-8d13-3730a6cdf13f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.restore-method-wrap .passp-button > .Button2",
+      "targets": [
+        ["css=.restore-method-wrap .passp-button > .Button2", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div[2]/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab2f6a24-091e-4ae5-ba16-0abead167c1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=passp-field-phoneCode",
+      "targets": [
+        ["id=passp-field-phoneCode", "id"],
+        ["name=phoneCode", "name"],
+        ["css=#passp-field-phoneCode", "css:finder"],
+        ["xpath=//input[@id='passp-field-phoneCode']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div[2]/div/form/div/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div/div[2]/span/input", "xpath:position"]
+      ],
+      "value": "636745"
+    }, {
+      "id": "1f48b080-89f1-45bb-963b-148661a49ad6",
+      "comment": "",
+      "command": "type",
+      "target": "id=passp-field-password",
+      "targets": [
+        ["id=passp-field-password", "id"],
+        ["name=password", "name"],
+        ["css=#passp-field-password", "css:finder"],
+        ["xpath=//input[@id='passp-field-password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "222222Sa@"
+    }, {
+      "id": "75b88aaa-d615-414a-85d5-c9bdd11bd75f",
+      "comment": "",
+      "command": "click",
+      "target": "id=passp-field-password_confirm",
+      "targets": [
+        ["id=passp-field-password_confirm", "id"],
+        ["name=password_confirm", "name"],
+        ["css=#passp-field-password_confirm", "css:finder"],
+        ["xpath=//input[@id='passp-field-password_confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div/div[3]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c35dabf8-75f6-4c24-aa61-32028e562035",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button2",
+      "targets": [
+        ["css=.Button2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c35b4bf7-ab7d-4233-95ff-c2fe22fee142",
+      "comment": "",
+      "command": "type",
+      "target": "id=passp-field-password_confirm",
+      "targets": [
+        ["id=passp-field-password_confirm", "id"],
+        ["name=password_confirm", "name"],
+        ["css=#passp-field-password_confirm", "css:finder"],
+        ["xpath=//input[@id='passp-field-password_confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div/div[3]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/span/input", "xpath:position"]
+      ],
+      "value": "222222Sa@"
+    }, {
+      "id": "55da62e8-7595-4d27-a96d-1e2196a9689c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Продолжить",
+      "targets": [
+        ["linkText=Продолжить", "linkText"],
+        ["css=.Button2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://yandex.by/')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acdba681-06bb-4e9f-8870-7c6787957270",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=12°",
+      "targets": [
+        ["linkText=12°", "linkText"],
+        ["css=.informers3__weather", "css:finder"],
+        ["xpath=//a[contains(text(),'12°')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://yandex.by/pogoda?lat=53.868793&lon=27.684649&utm_source=home&utm_campaign=informer&utm_content=main_informer&utm_medium=web')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'12°')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "097dd097-b764-4a2c-b836-8e7113046764",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f5e585d-2d93-4331-b3f9-a0a4f4812a54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.avatar__image-wrapper",
+      "targets": [
+        ["css=.avatar__image-wrapper", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed9d228f-6df1-4dc4-b7e8-e59e7073fc34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Избранное",
+      "targets": [
+        ["linkText=Избранное", "linkText"],
+        ["css=.usermenu-redesign__favorites", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://yandex.by/collections/')]", "xpath:href"],
+        ["xpath=//div[3]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Избранное')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "284bb536-b5c1-4726-8888-3497868ad390",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Избранное",
+      "targets": [
+        ["linkText=Избранное", "linkText"],
+        ["css=.usermenu-redesign__favorites", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://yandex.by/collections/')]", "xpath:href"],
+        ["xpath=//div[3]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Избранное')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c1e661-207b-42e1-8f02-90490393abbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.usermenu-redesign__messenger-inner .usermenu-redesign__item-text",
+      "targets": [
+        ["css=.usermenu-redesign__messenger-inner .usermenu-redesign__item-text", "css:finder"],
+        ["xpath=//a[2]/span/span[2]/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8983",
+      "windowTimeout": 2000
+    }, {
+      "id": "fb2b714b-cc85-4710-80c2-dd6fd00c1cf2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8983}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24c16fef-6d4b-4765-9153-468f3f46825d",
+      "comment": "",
+      "command": "click",
+      "target": "id=1946665746_text",
+      "targets": [
+        ["id=1946665746_text", "id"],
+        ["css=#\\31 946665746_text", "css:finder"],
+        ["xpath=//div[@id='1946665746_text']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[4]/div/div/div[2]/div/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8964bfdd-a1dc-47c1-90e4-7851abb5a1b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a4c5fe9-9a31-46c6-8942-4bbba5ecd0bd"]
+  }],
+  "urls": ["https://passport.yandex.by/auth/list?retpath=https%3A%2F%2Fyandex.by%2F&msid=1665323120862328-16768888555097119176-vla1-4340-vla-l7-balancer-8080-BAL-1242&origin=home_yaru_desktop_new"],
+  "plugins": []
+}
