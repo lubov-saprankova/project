@@ -1,0 +1,18 @@
+09.11.2022 12:19:19.654 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 12:19:19.870 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 12:23:57.689 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 12:23:57.889 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 12:29:01.163 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 12:29:01.395 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 12:31:57.213 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 12:31:57.630 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 14:25:32.037 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 14:25:32.250 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 14:27:40.139 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 14:27:40.518 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 14:28:54.541 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 14:28:54.549 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 14:30:14.293 [main] INFO   i.g.b.w.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+09.11.2022 14:30:14.423 [main] INFO   i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\New\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+09.11.2022 14:32:03.641 [main] INFO   Test-Case's 1-6 - Тест-кейс №1 пройден
+09.11.2022 14:32:13.202 [main] INFO   Test-Case's 1-6 - Тест-кейс №2 пройден
