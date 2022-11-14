@@ -1,0 +1,12 @@
+//nav//a[@class='dropdown-item'][@href='/udilishcha/'],Удилища,Удилища
+//nav//a[@class='dropdown-item'][@href='/katushki/'],Катушки,Катушки
+//nav//a[@class='dropdown-item'][@href='/primanki/'],Приманки,Приманки
+//nav//a[@class='dropdown-item'][@href='/leski/'],Лески,Лески
+//nav//a[@class='dropdown-item'][@href='/kruchki/'],Крючки,Крючки
+//nav//a[@class='dropdown-item'][@href='/gruza/'],Грузы,Грузы
+//nav//a[@class='dropdown-item'][@href='/aksessuary/'],Аксессуары,Аксессуары
+//nav//a[@class='dropdown-item'][@href='/odejhda/'],Одежда,Одежда
+//nav//a[@class='dropdown-item'][@href='/camping/'],Кемпинг,Кемпинг
+//nav//a[@class='dropdown-item'][@href='/elektronika/'],Электроника,Электроника
+//nav//a[@class='dropdown-item'][@href='/certificates/'],Сертификаты,Подарочные сертификаты
+//nav//a[@class='dropdown-item'][@href='/forel/'],Ловля форели,Ловля форели
